@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css ">
+    <title>MAKEUP WEBSITEt</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="home" class="logo">
+                <div>MAKE<span>UP</span></div>
+                <div>Fashion Steps</div>
+            </a>
+            <ul class="navlist">
+                <li> <a href="#home" class="active">HOME</a></li>
+                <li> <a href="#about">ABOUT</a></li>
+                <li> <a href="#services">SERVICES</a></li>
+                <li> <a href="#shop">SHOP</a></li>
+                <li> <a href="#blog">BLOG</a></li>
+                <li> <a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="nav-icons">
+                <div class="menu-btn">
+                    <span class="lnr lnr-menu"></span>
+                </div>
+                <span class="lnr lnr-heart"></span>
+                <span class="lnr lnr-cart"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!--=====================================
+                    HOME                    
+    =======================================-->
+
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="swiper mySwiper home-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide Slide1">
+                        <div class="content">
+                            <h1> World's Best Beauty Products</h1>
+                            <p>"Beauty can be defined in so many ways, as evidenced in these popular beauty quotes. For
+                                some, it's about embracing what sets you apart. For others, it's about finding the ideal
+                                shade of red lipstick. Thankfully, it's possible to do both. Here, we've gathered 47 of
+                                the best beauty quotes from makeup artists, models, actresses, and fashion designers, to
+                                name just a few. Discover words of wisdom from Coco Chanel, Christian Dior, Audrey
+                                Hepburn, Elizabeth Taylor, Lady Gaga, and more".</p>
+                            <form action="" class="home-search">
+                                <input type="text" name="search" placeholder="search here">
+                                <button type="submit" class="btn"><span class="lnr lnr-magnifier"></span></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="swiper-slide Slide2">
+                        <div class="content">
+                            <h1> World's Best Beauty Products</h1>
+                            <p>"Beauty can be defined in so many ways, as evidenced in these popular beauty quotes. For
+                                some, it's about embracing what sets you apart. For others, it's about finding the ideal
+                                shade of red lipstick. Thankfully, it's possible to do both. Here, we've gathered 47 of
+                                the best beauty quotes from makeup artists, models, actresses, and fashion designers, to
+                                name just a few. Discover words of wisdom from Coco Chanel, Christian Dior, Audrey
+                                Hepburn, Elizabeth Taylor, Lady Gaga, and more".</p>
+                            <form action="" class="home-search">
+                                <input type="text" name="search" placeholder="search here">
+                                <button type="submit" class="btn"><span class="lnr lnr-magnifier"></span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--=====================================
+                     ABOUT                    
+    =======================================-->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="left">
+                <div class="content">
+                    <div class="title">
+                        <h2>Home Of Professional's</h2>
+                    </div>
+                    <p>“There was a moment when I changed from an amateur to a professional. I assumed the burden of a
+                        profession, which is to write even when you don't want to, don't much like what you're writing,
+                        and aren't writing particularly well.”</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+            <div class="right">
+                <div class="image">
+                    <img src="image/cover.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=====================================
+                     SERVICES                    
+    =======================================-->
+    <section class="services" id="services">
+        <div class="title">
+            <h2>Our Makeup Services</h2>
+        </div>
+        <div class="container services-container">
+            <div class="col">
+                <img src="image/service1.jpg" alt="">
+                <div class="info">
+                    <h4>Daily Makeup</h4>
+                    <ul>
+                        <li>Rs40.00</li>
+                        <li class="dis">Rs60.00</li>
+                    </ul>
+                    <a href="Book Services"></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="info">
+                    <h4>Party Makeup</h4>
+                    <ul>
+                        <li>Rs40.00</li>
+                        <li class="dis">Rs60.00</li>
+                    </ul>
+                    <a href="Book Services"></a>
+                </div>
+                <img src="image/service2.jpg" alt="">
+            </div>
+            <div class="col">
+                <img src="image/service3.jpg" alt="">
+                <div class="info">
+                    <h4>Matte Makeup</h4>
+                    <ul>
+                        <li>Rs40.00</li>
+                        <li class="dis">Rs60.00</li>
+                    </ul>
+                    <a href="Book Services"></a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="info">
+                    <h4>Wedding Makeup</h4>
+                    <ul>
+                        <li>Rs40.00</li>
+                        <li class="dis">Rs60.00</li>
+                    </ul>
+                    <a href="Book Services"></a>
+                </div>
+                <img src="image/service4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!--=====================================
+                     SHOP                   
+    =======================================-->
+    <section class="shop" id="shop">
+        <div class="title">
+            <h2> Our Products</h2>
+        </div>
+        <div class="container shop-container">
+            <div class="swiper mySwiper shop-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa14.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 54.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa13.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 59.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa12.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 22.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa11.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 10.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa10.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 21.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa9.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 89.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa8.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 19.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa7.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 65.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa6.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 98.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa5.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 29.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa4.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 15.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa3.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 42.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa2.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 29.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <div class="image">
+                                <img src="image/mpa1.jpg" alt="">
+                                <div class="add">
+                                    <span class="lnr lnr-cart"></span>
+                                    <span class="lnr lnr-heart"></span>
+                                    <span class="lnr lnr-magnifier"></span>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>Sunblock</p>
+                                <h4>Lovely Whitening Facial</h4>
+                                <span>Rs 38.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=====================================
+                     TESTIMONIAL                    
+    =======================================-->
+    <section class="testimonial">
+        <div class="container testimonial-container">
+            <div class="swiper mySwiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="quote">
+                            <img src="image/lip.jpg" alt="">
+                        </div>
+                        <div class="profile">
+                            <img src="image/user.jpg" alt="">
+                            <P>"TRUE BEAUTY IS NOT RELATED TO WHAT COLOR YOUR HAIR IS OR WHAT COLOR YOUR EYES ARE TRUE
+                                BEAUTY IS ABOUT WHO YOU ARE AS A HUMAN BEING, YOUR PRINCIPLES, YOUR MORAL COMPASS" </P>
+                        </div>
+                        <div class="det">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <h4>Izabella Diana</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote">
+                            <img src="image/fs.jpg" alt="">
+                        </div>
+                        <div class="profile">
+                            <img src="image/user2.jpg" alt="">
+                            <P>"TRUE BEAUTY IS NOT RELATED TO WHAT COLOR YOUR HAIR IS OR WHAT COLOR YOUR EYES ARE TRUE
+                                BEAUTY IS ABOUT WHO YOU ARE AS A HUMAN BEING, YOUR PRINCIPLES, YOUR MORAL COMPASS" </P>
+                        </div>
+                        <div class="det">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <h4>Izabella Diana</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="quote">
+                            <img src="image/perf.jpg" alt="">
+                        </div>
+                        <div class="profile">
+                            <img src="image/user3.jpg" alt="">
+                            <P>"TRUE BEAUTY IS NOT RELATED TO WHAT COLOR YOUR HAIR IS OR WHAT COLOR YOUR EYES ARE TRUE
+                                BEAUTY IS ABOUT WHO YOU ARE AS A HUMAN BEING, YOUR PRINCIPLES, YOUR MORAL COMPASS" </P>
+                        </div>
+                        <div class="det">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                            </div>
+                            <h4>Izabella Diana</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--=====================================
+                    EXPERTS                   
+    =======================================-->
+
+    <section class="experts">
+        <div class="title">
+            <h2>Our Makeup Experts</h2>
+        </div>
+        <div class="container experts-container">
+            <div class="box">
+                <div class="image">
+                    <img src="image/makeupartist.jpg" alt="">
+                    <div class="social">
+                       <i class="fa-brands fa-facebook"></i>
+                       <i class="fa-brands fa-instagram"></i>
+                       <i class="fa-brands fa-twitter"></i>
+                       <i class="fa-brands fa-linkedin"></i>
+
+                    </div>
+                    <span></span>
+                </div>
+                <div class="info">
+                    <h3>Edward breek</h3>
+                    <span>DESIGNER</span>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/makeupexperts2.jpg" alt="">
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <span></span>
+                </div>
+                <div class="info">
+                    <h3>Julia Suppes</h3>
+                    <span> FACE-STYLIST</span>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/makeupexperts3.jpg" alt="">
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <span></span>
+                </div>
+                <div class="info">
+                    <h3>Saya Omar</h3>
+                    <span> MAKEUP-ARTIST</span>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/makeupexpert4.jpg" alt="">
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <span></span>
+                </div>
+                <div class="info">
+                    <h3>Ivan Samkov</h3>
+                    <span>HAIR-STYLIST</span>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=====================================
+                    BLOG                  
+    =======================================-->
+    
+    <section class="blog" id="blog">
+        <div class="title">
+            <h2>Our Blog</h2>
+        </div>
+        <div class="container blog-container">
+            <div class="box">
+                <div class="image">
+                    <img src="image/blog1.jpg" alt="">
+                    <div class="tag">
+                        <span>20</span>
+                        <s>JUN</s>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h3>People 's Number One Choice</h3>
+                    <div class="responc">
+                        <span>222 <i class="fa-solid fa-thumbs-up"></i></span>
+                        <span>42 <i class="fa-solid fa-comment"></i></span>
+                    </div>
+                    <p>“People are like stained-glass windows. They sparkle and shine when the sun is out, but when the darkness sets in, their true beauty is revealed only if there is a light from within.” —Elisabeth Kubler-Ross</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/blog2.jpg" alt="">
+                    <div class="tag">
+                        <span>20</span>
+                        <s>JUL</s>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h3>People 's Number One Choice</h3>
+                    <div class="responc">
+                        <span>229 <i class="fa-solid fa-thumbs-up"></i></span>
+                        <span>76 <i class="fa-solid fa-comment"></i></span>
+                    </div>
+                    <p>“People often say that beauty is in the eye of the beholder, and I say that the most liberating thing about beauty is realizing you are the beholder.” —Salma Hayek</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/blog4.jpg" alt="">
+                    <div class="tag">
+                        <span>20</span>
+                        <s>SEP</s>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h3>People 's Number One Choice</h3>
+                    <div class="responc">
+                        <span>190 <i class="fa-solid fa-thumbs-up"></i></span>
+                        <span>43 <i class="fa-solid fa-comment"></i></span>
+                    </div>
+                    <p> “In the end, you will not see the physical beauty in others that caught your eye but the fire that burned within them.” —Shannon L. Alder</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="image/bloges4.jpg" alt="">
+                    <div class="tag">
+                        <span>20</span>
+                        <s>DEC</s>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h3>People 's Number One Choice</h3>
+                    <div class="responc">
+                        <span>313 <i class="fa-solid fa-thumbs-up"></i></span>
+                        <span>81 <i class="fa-solid fa-comment"></i></span>
+                    </div>
+                    <p>“That's always seemed so ridiculous to me, that people want to be around someone because they're pretty. It's like picking your breakfast cereals based on color instead of taste.” —John Green</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--=====================================
+                    CONTACT                   
+    =======================================-->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="left col">
+                <div class="title">
+                    <h2>Get In Touch</h2>
+                </div>
+                <form action="" class="contact-form">
+                    <div class="form-name">
+                        <input type="text" name="Name" placeholder="Enter Your Name">
+                        <input type="email" name="email" id="" placeholder="Enter Your Email">
+                    </div>
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    <button class="btn">Send Message <span></span></button>
+                </form>
+            </div>
+            <div class="right col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27038.02187770644!2d76.25202633414115!3d32.10296783293057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b458198590ddf%3A0xad8e3ff3dfe5b1fe!2sKangra%2C%20Himachal%20Pradesh%20176001!5e0!3m2!1sen!2sin!4v1730567249763!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Whether you seek inspiration to enhance your self-confidence, explore the depths of your inner beauty, or simply appreciate the aesthetics of the world around you, these quotes are a wellspring of insight and reflection. Join us as we navigate the world of beauty through the eyes of those who have woven its essence into timeless words, offering guidance, encouragement, and a fresh perspective on what it means to be truly beautiful.</p>
+                <span>Tel:8091184746 , 7807960983
+                    Email : adityakoundal87@gmail.com , aditya.koundal@icloud.com
+                    Address : Chhoti Haler Gupt Ganga P.O Kangra [H.P] 
+                </span>
+            </div>
+        </div>
+    </section>
+
+     <!--=====================================
+                     FOOTER                   
+    =======================================-->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="box">
+                <a href="#Home" class="logo">
+                    <div>Make<span>up</span></div>
+                    <div>Fashion Steps</div>
+                </a>
+                <p>“People are like stained-glass windows. They sparkle and shine when the sun is out, but when the darkness sets in, their true beauty is revealed only if there is a light from within.”</p>
+            </div>
+            <div class="box">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Bookings</a></li>
+                    <li><a href="">Discount</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h4>NewsLetter</h4>
+                <p>Stay Update With Our Latest Product , News And Discounts.</p>
+                <form action="" class="newsletter">
+                <input type="email" name="email" id="" placeholder="Enter Email">
+                <button type="submit" class="btn"><span class="lnr lnr-arrows-right"></span></button>
+                </form>
+            </div>
+            <div class="box">
+                <h4>Follow Us</h4>
+                <p>Follow Us On Social Media Platform.</p>
+                <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+         <p>Copyright &copy; 2024 All right reserved. This template is made with
+            <i class="fa-solid fa-heart"></i>MAKE IN ADITYA KOUNDAL</p>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
